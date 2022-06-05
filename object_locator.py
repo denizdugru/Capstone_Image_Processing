@@ -95,7 +95,7 @@ class ObjectLocator:
         
 
     def append_coordinates_totxt(self):
-        f = open("FinalProduct/coordinates.txt", "a")
+        f = open("coordinates.txt", "a")
         f.write(self.colour + " " + self.shape + ": " + str(self.real_life_coordinates[0]) + " " + str(self.real_life_coordinates[1]))  #Appending the coordinate to txt file as requested
         f.write('\n')
         self.job_done = True
